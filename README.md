@@ -1,7 +1,7 @@
 # Korean-Traffic-Light-Detection-by-using-Darknet-Frame-Work
 ### Traffic Light Dataset in South Korea (TL-Seoul) by ACE Lab
 Download link https://en.acelab.org/traffic-light-dataset
-### For detail information of intalling Darknet please look out the video
+### For detail information of intalling Darknet Framework please look out the video
 https://www.youtube.com/watch?v=TP67icLSt1Y&t=969s
 ### Command for Finding anchors 
 darknet.exe detector calc_anchors data/obj.data -num_of_clusters 9 -width 960 -height 960
