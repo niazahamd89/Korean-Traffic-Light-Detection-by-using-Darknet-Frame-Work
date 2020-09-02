@@ -7,6 +7,8 @@ https://www.youtube.com/watch?v=TP67icLSt1Y&t=969s
 darknet.exe detector calc_anchors data/obj.data -num_of_clusters 9 -width 960 -height 960
 ### Command to train
 darknet.exe detector train data/obj.data yolov3-tiny-modified.cfg yolov3-tiny.conv.15 
+### Download Pretarin models
+https://drive.google.com/drive/folders/1p8LJOMHdXGy8sDD22v7JorNOrm3c8nOX?usp=sharing
 ### Detection command in image
 darknet.exe detector test data/obj.data yolov3-tiny-modified.cfg backup/yolov3-tiny-modified_152000.weights -thresh 0.1 -ext_output data/24.jpg
 ### Detection comand in video
